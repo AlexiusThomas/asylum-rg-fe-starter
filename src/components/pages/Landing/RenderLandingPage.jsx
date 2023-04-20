@@ -68,6 +68,14 @@ function RenderLandingPage(props) {
         >
           View the Data
         </Button>
+
+        <a
+          href="src/data/COW2021001887-I589Data.csv"
+          download="Asylum grant data 2015-2021"
+          style={{ backgroundColor: '#404C4A', color: '#FFFFFF' }}
+        >
+          Download the Data
+        </a>
       </div>
 
       <div className="middle-section">

@@ -16,6 +16,7 @@
     "@ant-design/icons": "^4.7.0",
     "@ant-design/pro-form": "^1.52.13",
     "@ant-design/pro-table": "^2.62.7",
+    "@auth0/auth0-react": "^1.12.1",
     "@craco/craco": "^6.4.3",
     "@material-ui/core": "^4.12.4",
     "@reduxjs/toolkit": "^1.8.2",
@@ -83,7 +84,8 @@
     "lint": "eslint 'src/**/*.{js,jsx}'",
     "prettier": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
     "start": "node start.js",
-    "test": "craco test --env=jest-environment-jsdom-sixteen"
+    "test": "craco test --env=jest-environment-jsdom-sixteen",
+    "api": "json-server --host 0.0.0.0 --port 6060 --watch json-server/db.json --routes json-server/routes.json"
   },
   "version": "0.1.0"
 }
