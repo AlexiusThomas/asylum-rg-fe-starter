@@ -90,7 +90,7 @@ function RenderLandingPage(props) {
             through a Freedom of Information Act request. You can search for
             information on asylum grant rates by year, nationality, and asylum
             office, visualize the data with charts and heat maps, and download
-            the data set
+            the data set.
           </h3>
         </div>
       </div>
